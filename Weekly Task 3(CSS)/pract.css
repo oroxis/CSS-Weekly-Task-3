@@ -1,0 +1,12 @@
+div {
+    display: none;
+}
+span:hover + div {
+    display: block;
+
+}
+div {
+    background-color: yellow;
+    padding: 20px;
+    display: none;
+}
